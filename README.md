@@ -11,7 +11,7 @@ Declassification
 The NSA recently declassified the letter, which can be found at:
 http://www.nsa.gov/public_info/_files/nash_letters/nash_letters1.pdf
 
-Ronald Rivest (yes, _the_ Rivest), quickly prototyped a version in Python,
+Ronald Rivest (yes, _that_ Rivest), quickly prototyped a version in Python,
 and put it up at his course site at MIT:
 
 * Python Code: http://courses.csail.mit.edu/6.857/2012/files/nash.py
