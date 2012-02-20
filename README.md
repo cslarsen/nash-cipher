@@ -74,8 +74,10 @@ and you should see some output:
 Author and license
 ------------------
 
-Written by Christian Stigen Larsen
+Original Python version by Ronald Rivest
+
+Translated to C++ by Christian Stigen Larsen
 http://csl.sublevel3.org
 
-Placed in the public domain by the author
+The C++ version is placed in the public domain by the author
 2012-02-20
