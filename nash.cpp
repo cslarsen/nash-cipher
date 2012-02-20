@@ -2,7 +2,8 @@
  * C++ transliteration of Ronald Rivest's Python implementation of the Nash
  * Cryptosystem, proposed by John Nash in the 1950s.
  *
- * Rivest's Python version
+ * Rivest's Python version can be found at
+ * http://courses.csail.mit.edu/6.857/2012/files/nash.py
  *
  * Written by Christian Stigen Larsen
  * http://csl.sublevel3.org
@@ -15,7 +16,6 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
-#include <cstdarg>
 
 template<typename word = int>
 class bitstring_t : public std::vector<word>
@@ -23,21 +23,6 @@ class bitstring_t : public std::vector<word>
 public:
   bitstring_t()
   {
-  }
-
-  /*
-   * Initialize by variadic constructor,
-   * assume that rest of numbers are same
-   * datatype as first.
-   */
-  bitstring_t(const word& first, ...)
-  {
-    va_list a;
-    va_start(a, first);
-    push_back(first);
-    for ( int i=0; i<first; ++i )
-      push_back(va_arg(a, word));
-    va_end(a);
   }
 
   bitstring_t(const word* v, const size_t len)
