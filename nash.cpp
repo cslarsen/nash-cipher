@@ -5,6 +5,9 @@
  * Rivest's Python version can be found at
  * http://courses.csail.mit.edu/6.857/2012/files/nash.py
  *
+ * Rivest's version contains some important notes.  This is just a quick
+ * translation to UNOPTIMIZED C++, made for the fun of it.
+ *
  * Written by Christian Stigen Larsen
  * http://csl.sublevel3.org
  *
@@ -115,7 +118,7 @@ public:
   {
     std::cout << "Dec: decrypting string cs = " << cs << std::endl;
     bitstring bs;
-    
+
     for ( bitstring::const_iterator c = cs.begin();
           c != cs.end();
           ++c )

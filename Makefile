@@ -3,7 +3,7 @@ TARGETS = nash
 
 all: $(TARGETS)
 
-run: nash
+check: all
 	./nash
 
 clean:
