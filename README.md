@@ -21,7 +21,7 @@ Transliteration
 ---------------
 
 This version is just a transliteration of Rivest's Python code into C++.
-And it's not even optimized, either.  But it's should be a nice starting
+And it's not even optimized, either.  But it should be a nice starting
 point for people who want to play with it in C++.
 
 Compiling and running the test
