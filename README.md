@@ -2,7 +2,7 @@ Background
 ----------
 
 In 1955, John Nash sent a letter to the NSA, detailing an encryption scheme.
-In the letter, he anticipated compelxity theory by a decade, and mentioned
+In the letter, he anticipated complexity theory by a decade, and mentioned
 one-way functions (whose existence is still an open problem in mathematics).
 
 Declassification
